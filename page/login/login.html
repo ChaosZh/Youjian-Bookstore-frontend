@@ -15,10 +15,10 @@
             <div class="desc">在这里，享受阅读和生活</div>
         </div>
         <div class="panel">
-            <div class="login-panel">
+            <div id="login-panel">
                 <div class="options">
                     <span class="option chosen">登录</span>/
-                    <span class="option">注册</span>
+                    <span class="option" onclick="switch_panel()">注册</span>
                 </div>
                 <div class="form">
                     <input class="form-ele" type="text" placeholder="请输入用户名"/>
@@ -29,9 +29,9 @@
                     </div>
                 </div>
             </div>
-            <div class="register-panel">
+            <div id="register-panel" style="display: none;">
                 <div class="options">
-                    <span class="option">登录</span>/
+                    <span class="option" onclick="switch_panel()">登录</span>/
                     <span class="option chosen">注册</span>
                 </div>
                 <div class="form">
@@ -45,4 +45,6 @@
         </div>
     </div>
 </body>
+<script type="text/javascript" src="./login.js"></script>
+
 </html>

@@ -1,0 +1,11 @@
+.cart .hints{
+    padding: 20px 0 15px 0;
+    /* border-bottom: 1px solid #ddd; */
+    background: #fefefe;
+    color: #888;
+    font-size: 13px;
+}
+
+.cart .hint:not(:first-child){
+    text-align: right;
+}
