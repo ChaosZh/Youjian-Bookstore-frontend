@@ -116,6 +116,7 @@
 .mid .books .book .cover{
     height: 185px;
     width: 185px;
+    background-image: url("http://img3m8.ddimg.cn/47/0/26909138-1_b_5.jpg");
     background-color: #f3f3f3;
     background-size: cover;
 }

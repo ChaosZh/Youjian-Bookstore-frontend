@@ -32,6 +32,7 @@ header .fix-column .links{
 
 header .fix-column .links .link{
     padding: 0 10px 0 0;
+    cursor: pointer;
 }
 
 header .fix-column .links .link:not(:first-child)::before{

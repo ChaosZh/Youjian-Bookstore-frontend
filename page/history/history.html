@@ -16,20 +16,20 @@
             <div class="wrapper">
                 <div class="discription"><span style="color: #ff2a18;">username</span> ，欢迎来到有间书屋！</div>
                 <div class="links">
-                    <div class="link">首页</div>
-                    <div class="link">我的购物车</div>
-                    <div class="link">历史订单</div>
-                    <div class="link">退出登录</div>
+                    <div class="link" onclick="goto('index')">首页</div>
+                    <div class="link" onclick="goto('cart')">我的购物车</div>
+                    <div class="link" onclick="goto('history')">历史订单</div>
+                    <div class="link" onclick="logout()">退出登录</div>
                 </div>
             </div>
         </div>
         <div class="fix-column not-login">
             <div class="wrapper">
-                <div class="discription">欢迎光临有间书屋，请先 <span style="color: #ff2a18;">登录</span> </div>
+                <div class="discription">欢迎光临有间书屋，请先 <span onclick="goto('index')" style="color: #ff2a18;">登录</span> </div>
                 <div class="links">
-                    <div class="link">首页</div>
-                    <div class="link">我的购物车</div>
-                    <div class="link">历史订单</div>
+                    <div class="link" onclick="goto('index')">首页</div>
+                    <div class="link" onclick="goto('cart')">我的购物车</div>
+                    <div class="link" onclick="goto('history')">历史订单</div>
                 </div>
             </div>
         </div>
@@ -92,7 +92,9 @@
                         <div class="item-author">程瑞鹏</div>
                     </div>
                     <div class="item-sin-val">17.9</div>
-                    <div class="item-num">1</div>
+                    <div class="item-num">
+
+                    </div>
                     <div class="item-count">17.9</div>
                 </div>
                 <div class="item">
@@ -117,4 +119,7 @@
         <div>1751747 郑超</div>
     </footer>
 </body>
+<script type="text/javascript" src="./../pub.js"></script>
+<!-- <!-- <script type="text/javascript" src="./login.js"></script> --> -->
+
 </html>

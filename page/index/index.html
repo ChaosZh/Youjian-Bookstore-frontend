@@ -14,12 +14,12 @@
     <div class="rect top">
         <div class="menu-wrapper">
             <div class="menu">
-                <div class="menu-item menu-item-a">首页</div>
-                <div class="menu-item menu-item-a">购物车</div>
-                <div class="menu-item menu-item-a">订单</div>
+                <div class="menu-item menu-item-a" onclick="goto('index')">首页</div>
+                <div class="menu-item menu-item-a" onclick="goto('cart')">购物车</div>
+                <div class="menu-item menu-item-a" onclick="goto('order')">订单</div>
                 <div style="flex:1;"></div>
-                <div class="menu-item menu-item-b">注册</div>
-                <div class="menu-item menu-item-b">登录</div>
+                <div class="menu-item menu-item-b" onclick="goto('login')">注册</div>
+                <div class="menu-item menu-item-b" onclick="goto('login')">登录</div>
                 <div class="menu-item" style="height: 30px; width: 30px; transform: translateY(-2px);">
                     <embed src="./../../resource/icon/white/user.svg" type="image/svg+xml" />
                 </div>
@@ -276,28 +276,13 @@
             <div class="menu-small-class">0-3岁</div>
             <div class="menu-small-class">3-6岁</div>
         </div>
-        <div class="menu">
-            <div class="menu-big-class">经管</div>
-            <div class="menu-small-class">经济</div>
-            <div class="menu-small-class">管理</div>
-            <div class="menu-small-class">投资理财</div>
-        </div>
-        <div class="menu">
-            <div class="menu-big-class">生活</div>
-            <div class="menu-small-class">两性</div>
-            <div class="menu-small-class">孕期</div>
-            <div class="menu-small-class">育儿</div>
-            <div class="menu-small-class">手工</div>
-            <div class="menu-small-class">美妆</div>
-            <div class="menu-small-class">美食</div>
-            <div class="menu-small-class">旅游</div>
-            <div class="menu-small-class">休闲</div>
-            <div class="menu-small-class">家居</div>
-        </div>
+
     </div>
     <footer>
         <div>有间书屋 - Web系统与技术 - 个人作业</div>
         <div>1751747 郑超</div>
     </footer>
 </body>
+<script type="text/javascript" src="./../pub.js"></script>
+
 </html>
