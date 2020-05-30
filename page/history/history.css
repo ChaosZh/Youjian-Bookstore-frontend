@@ -10,6 +10,15 @@
     text-align: right;
 }
 
+.history #empty{
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    vertical-align: middle;
+    color: #aaa;
+    font-size: 13px;
+}
+
 .history .orders{
     /* height: 100px; */
     /* background: #000; */

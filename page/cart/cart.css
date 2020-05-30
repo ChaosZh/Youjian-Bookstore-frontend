@@ -16,6 +16,15 @@
     background: #fafafa;
 }
 
+.cart #empty{
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    vertical-align: middle;
+    color: #aaa;
+    font-size: 13px;
+}
+
 .cart .items .item{
     display: flex;
     margin-top: 20px;

@@ -14,7 +14,7 @@
     <header>
         <div class="fix-column login">
             <div class="wrapper">
-                <div class="discription"><span style="color: #ff2a18;">username</span> ，欢迎来到有间书屋！</div>
+                <div class="discription"><span id="username" style="color: #ff2a18;">username</span> ，欢迎来到有间书屋！</div>
                 <div class="links">
                     <div class="link" onclick="goto('index')">首页</div>
                     <div class="link" onclick="goto('cart')">我的购物车</div>
@@ -56,70 +56,17 @@
             </div>
         </div>
         <div class="items">
-            <div class="item">
-                <div class="checkboxs">
-                    <input class="item-checkbox" type="checkbox">
-                </div>
-                <img class="item-img" src=""></img>
-                <div class="item-detail">
-                    <div class="item-name">敏感者天赋</div>
-                    <div class="item-author">程瑞鹏</div>
-                </div>
-                <div class="item-sin-val">17.9</div>
-                <div class="item-num">
-                    <input type="number" class="item-number">
-                </div>
-                <div class="item-count">17.9</div>
-                <div class="options">
-                    <div class="delete-btn">×</div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="checkboxs">
-                    <input class="item-checkbox" type="checkbox">
-                </div>
-                <img class="item-img" src=""></img>
-                <div class="item-detail">
-                    <div class="item-name">敏感者天赋</div>
-                    <div class="item-author">程瑞鹏</div>
-                </div>
-                <div class="item-sin-val">17.9</div>
-                <div class="item-num">
-                    <input type="number" class="item-number">
-                </div>
-                <div class="item-count">17.9</div>
-                <div class="options">
-                    <div class="delete-btn">×</div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="checkboxs">
-                    <input class="item-checkbox" type="checkbox">
-                </div>
-                <img class="item-img" src=""></img>
-                <div class="item-detail">
-                    <div class="item-name">敏感者天赋</div>
-                    <div class="item-author">程瑞鹏</div>
-                </div>
-                <div class="item-sin-val">17.9</div>
-                <div class="item-num">
-                    <input type="number" class="item-number">
-                </div>
-                <div class="item-count">17.9</div>
-                <div class="options">
-                    <div class="delete-btn">×</div>
-                </div>
-            </div>
+            <div id="empty">天哪！购物车里什么都没有哦！</div>
         </div>
         <div class="counter">
             <div style="margin-left: 20px; flex: 1;">结算</div>
             <div style="display: flex; align-items: center;">
                 <div>总价：</div>
-                <div class="money">123.0</div>
+                <div class="money">0.00</div>
             </div>
             <div class="make-order-btn">现在下单</div>
         </div>
-    </div>
+    <div>
     <footer>
         <div>有间书屋 - Web系统与技术 - 个人作业</div>
         <div>1751747 郑超</div>
@@ -127,5 +74,6 @@
 </body>
 
 <script type="text/javascript" src="./../pub.js"></script>
+<script type="module" src="./cart.js"></script>
 
 </html>

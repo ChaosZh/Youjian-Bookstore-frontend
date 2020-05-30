@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./../pub.css">
     <link rel="stylesheet" href="./../components/header.css">
     <link rel="stylesheet" href="./../components/footer.css">
-    <link rel="stylesheet" href="./history.css">
-    <title>历史订单 - 有间书屋</title>
+    <link rel="stylesheet" href="./item.css">
+    <title>商品 - 有间书屋</title>
 </head>
 <body>
     <header>
@@ -38,22 +38,31 @@
             <div class="wrapper">
                 <div class="title">有间书屋</div>
                 <!-- <div class="sub-title"></div> -->
-                <div class="hint">我的历史订单</div>
+                <!-- <div class="hint">商品详情</div> -->
             </div>
         </div>
     </header>
-    <div class="history">
-        <div class="hints">
-            <div class="wrapper" style="display: flex; width: 1000px; margin: 0 auto 0 auto; padding: 0 30px 0 30px;">
-                <div class="hint" style="width: 495px;">商品详情</div>
-                <div class="hint" style="flex: 1;">单价（元）</div>
-                <div class="hint" style="flex: 1;">数量</div>
-                <div class="hint" style="flex: 1;">金额（元）</div>
+    <div class="item">
+        <div class="left">
+            <div class="cover"></div>
+        </div>
+        <div class="right">
+            <div id="book">
+                <div class="name"><span class="tag">有间自营</span></div>
+                <div class="description"></div>
+                <div class="author"></div>
+                <div class="price-wrapper">
+                    <div class="hint">现价</div>
+                    <div class="price-a"></div>
+                    <div class="hint">定价<span class="price-b"></span></div>
+                </div>
+            </div>
+            <div class="btns">
+                <input type="number" class="number" value="1"></input>
+                <div class="btn">加入购物车</div>
             </div>
         </div>
-        <div class="orders">
-            <div id="empty">你还什么都没有买过哦！快去下个单试试吧！</div>
-        </div>
+
     </div>
     <footer>
         <div>有间书屋 - Web系统与技术 - 个人作业</div>
@@ -61,6 +70,6 @@
     </footer>
 </body>
 <script type="text/javascript" src="./../pub.js"></script>
-<script type="module" src="./history.js"></script>
+<script type="module" src="./item.js"></script>
 
 </html>
