@@ -4,6 +4,8 @@
 
 ## 1. 项目地址
 
+部署地址：http://47.101.53.252/
+
 [前端项目地址](https://github.com/ChaosZh/Youjian-Bookstore-frontend)
 
 [后端项目地址](https://github.com/ChaosZh/Youjian-Bookstore-backend)

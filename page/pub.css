@@ -1,21 +1,36 @@
 @font-face {
     font-family: 'PingFang SC';
-    src: url('./../resource/font/PingFang\ Regular.ttf');
+    src: url('./../resource/font/PingFang Regular.ttf');
 }
 
 @font-face {
     font-family: 'PingFang SC Medium';
-    src: url('./../resource/font/PingFang\ Medium.ttf');
+    src: url('./../resource/font/PingFang Medium.ttf');
 }
 
 @font-face {
     font-family: 'PingFang SC Bold';
-    src: url('./../resource/font/PingFang\ Bold.ttf');
+    src: url('./../resource/font/PingFang Bold.ttf');
 }
 
 @font-face {
     font-family: 'PingFang SC Light';
-    src: url('./../resource/font/PingFang\ Light.ttf');
+    src: url('./../resource/font/PingFang Light.ttf');
+}
+
+@font-face {
+    font-family: 'Source Han Sans CN Regular';
+    src: url('./../resource/font/SourceHanSansCN Regular.otf');
+}
+
+@font-face {
+    font-family: 'Source Han Sans CN Heavy';
+    src: url('./../resource/font/SourceHanSansCN Heavy.otf');
+}
+
+@font-face {
+    font-family: 'Source Han Sans CN Medium';
+    src: url('./../resource/font/SourceHanSansCN Medium.otf');
 }
 
 *{
